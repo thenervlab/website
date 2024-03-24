@@ -5,6 +5,7 @@
   p {
     @include size(h3);
     margin-top: $vertical-rhythm;
+    text-align: left;
   }
 
   a {
