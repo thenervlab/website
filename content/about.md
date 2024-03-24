@@ -1,11 +1,9 @@
 ---
-title: "About"
+title: "Welcome to the NERVLAB!"
 date: 2024-03-24T09:42:33+11:00
 draft: true
 author: NERVLAB
 ---
-
-# Welcome to the NERVLAB!
 
 Our mission is to understand how endogenous retroviruses contribute to human neurobiology, in both health and disease. 
 

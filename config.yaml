@@ -43,7 +43,7 @@ Params:
 #   #   - delight is the light version of osprey-delight
 #   #   - dedark is the dark version of "delight"
 #   #   - origin is the legacy version (similar to https://github.com/tomanistor/osprey)
-#   theme: "delight"
+  theme: "dedark"
 
 #   # tagline (followed by a cursor) is shown at the top, below the logo
 #   #tagline: "Welcome!"
@@ -62,22 +62,16 @@ Params:
 #   # credit to the theme. If you want to support the theme by please leave this in, it's kept very tiny and short.
 #   # credit: true
 
-# ## Social links in footer:
-# ##   The type specifies the icon to use. For more information, see: 
-# ##   https://github.com/kdevo/osprey-delight/blob/dev/CUSTOMIZING.md#icons
-#   Social:
-#   - type: twitter # references the icon to use
-#     url: ""
-#   - type: linkedin 
-#     url: ""
-#   - type: github
-#     url: "https://github.com/hugo-mods/"
-#   - type: heart
-#     url: "https://github.com/sponsors/kdevo"
-#   - type: stackoverflow  
-#     url: ""
-#   - type: spotify
-#     url: https://open.spotify.com/artist/5NhBOdJh6T1tgtM5Au1Opl
+## Social links in footer:
+##   The type specifies the icon to use. For more information, see: 
+##   https://github.com/kdevo/osprey-delight/blob/dev/CUSTOMIZING.md#icons
+  Social:
+  - type: instagram
+    url: "https://instagram.com/thenervlab"
+  - type: twitter # references the icon to use
+    url: "https://twitter.com/thenervlab"
+  - type: github
+    url: "https://github.com/thenervlab/"
 
 # ## Additional theme features:
 #   Feat:
@@ -131,25 +125,25 @@ Params:
 #   #   noscript: true
       
 
-# ## Menu items are automatically added to navbar.
-# ##   See: https://gohugo.io/content-management/menus/#add-content-to-menus
-# Menu:
-#   Main:
-#     - name: "About"
-#       # identifier controls the section type (and therewith the appearence).
-#       identifier: about 
-#       # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
-#       url: "/#about"
-#       # weight controls the order of the menu items.
-#       weight: 1
+## Menu items are automatically added to navbar.
+##   See: https://gohugo.io/content-management/menus/#add-content-to-menus
+Menu:
+  Main:
+    - name: "About"
+      # identifier controls the section type (and therewith the appearence).
+      identifier: about 
+      # url must be an anchor, for smooth scrolling to it when clicking on the menu item.
+      url: "/#about"
+      # weight controls the order of the menu items.
+      weight: 1
 #     - name: "Work"
 #       identifier: gallery
 #       url: "/#work"
 #       weight: 2
-#     - name: "Blog"
-#       identifier: blog
-#       url: "/#blog"
-#       weight: 3
+    - name: "News"
+      identifier: blog
+      url: "/#blog"
+      weight: 3
 #     - name: "Contact"
 #       identifier: contact
 #       url: "/#contact"
