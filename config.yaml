@@ -43,7 +43,7 @@ Params:
 #   #   - delight is the light version of osprey-delight
 #   #   - dedark is the dark version of "delight"
 #   #   - origin is the legacy version (similar to https://github.com/tomanistor/osprey)
-  theme: "dedark"
+  theme: "nervdark"
 
 #   # tagline (followed by a cursor) is shown at the top, below the logo
 #   #tagline: "Welcome!"
