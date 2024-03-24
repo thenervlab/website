@@ -7,6 +7,5 @@ draft = true
 +++
 
 
-# Welcome to the NERVLAB!
 
 This will be my first news item.
