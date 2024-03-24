@@ -1,5 +1,5 @@
-title: "Osprey Delight Demo"
-baseURL: "https://example.com"
+title: "NERVLAB"
+baseURL: "https://thenervlab.org"
 languageCode: "en-US"
 theme: "github.com/kdevo/osprey-delight/v5"
 tags: ["personal", "homepage", "portfolio"]
@@ -19,15 +19,15 @@ module:
 ## Generic theme parameters:
 Params:
   author:
-    name: "kdevo"
-  description: "Osprey Delight: Example Site"
+    name: "NERVLAB"
+  description: "NERVLAB: Research Team, Wollongong Australia"
 
   # logoBig appears at the top of the page. Use a path relative to the assets dir for auto-resizing. 
   logoBig: "/images/logo_large_black-orange.png"
 
 #   # logoSmall is the logo that will be shown in the left corner of the nav bar.
 #   #   Use a path relative to the assets dir for auto-resizing.
-#   logoSmall: "favicon.png"
+  logoSmall: "/images/logo_small_black-orange.png"
   
   # background can optionally be specified as an image layer behind logoBig at the top of the page (parallax effect).
   background: "background.png"
@@ -37,7 +37,7 @@ Params:
 #   opengraphImage: "/images/osprey-delight.png"
 
 #   # favicon of the site (e.g. smaller version of logoSmall).
-#   favicon: "favicon.png"
+  favicon: "/images/logo_small_black-orange.png"
 
 #   # theme your site by choosing one of the themes under assets/sass/themes:
 #   #   - delight is the light version of osprey-delight
@@ -57,10 +57,10 @@ Params:
 #   enforceSinglePage: false
 
 #   # copyright flag generates a copyright notice in footer of your site.
-#   copyright: true
+  copyright: true
 
 #   # credit to the theme. If you want to support the theme by please leave this in, it's kept very tiny and short.
-#   # credit: true
+  # credit: true
 
 ## Social links in footer:
 ##   The type specifies the icon to use. For more information, see: 
@@ -136,18 +136,18 @@ Menu:
       url: "/#about"
       # weight controls the order of the menu items.
       weight: 1
-#     - name: "Work"
-#       identifier: gallery
-#       url: "/#work"
-#       weight: 2
-    - name: "News"
+    - name: "Research"
+      identifier: gallery
+      url: "/#research"
+      weight: 2
+    - name: "News & Views"
       identifier: blog
       url: "/#blog"
       weight: 3
-#     - name: "Contact"
-#       identifier: contact
-#       url: "/#contact"
-#       weight: 4
+    - name: "Contact"
+      identifier: contact
+      url: "/#contact"
+      weight: 4
 #     # - name: ""
 #     #   # pre makes it possible to use arbitrary HTML before the name, e.g. referencing icons here is possible:
 #     #   pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
