@@ -23,6 +23,8 @@ contact:
 sending: fas space-shuttle
 ok: fas check-circle
 
+star: far star
+
 # Social
 github: fab github
 twitter: fab twitter
