@@ -49,7 +49,7 @@ Params:
 #   #tagline: "Welcome!"
 #   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
 #   #   Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-#   mdTagline: "# Welcome!\n ## This is Osprey Delight{cursor}"
+  mdTagline: " "
 
 #   # enforceSinglePage will enforce redirection to the baseURL for all sub-directories/-pages.
 #   #   Example: If you create about.md, Hugo will also create a '/about/index.html' which might not be what you want for a *single* page site. 
