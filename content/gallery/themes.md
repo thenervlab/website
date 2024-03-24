@@ -41,14 +41,14 @@ color: "#000"
     #   wait: 75
     # - data: exit
     #   wait: 75
-buttons:
-  - i18n: view # i18n key (see i18n directory, see https://gohugo.io/functions/i18n/)
-    icon: view # optional: use an icon from icons.yaml
-    newTab: false # optional: controls if url should be opened in new tab
-    url: ""
-  - i18n: code 
-    icon: code
-    url: ""
-# [bool] Draft mode will decide if file will be published to 'public/' directory.
-draft: false
+# buttons:
+#   - i18n: view # i18n key (see i18n directory, see https://gohugo.io/functions/i18n/)
+#     icon: view # optional: use an icon from icons.yaml
+#     newTab: false # optional: controls if url should be opened in new tab
+#     url: ""
+#   - i18n: code 
+#     icon: code
+#     url: ""
+# # [bool] Draft mode will decide if file will be published to 'public/' directory.
+# draft: false
 ---
