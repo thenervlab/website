@@ -1,3 +1,4 @@
 .vscode/settings.json
-resources/_gen/assets/scss/sass/main.scss*
+resources/_gen/*
 
+public/*
