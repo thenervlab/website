@@ -3,7 +3,7 @@
 title: "Publications"
 # [str] Optional subtitle of the project. 
 #   Functions as an additional explanation when hovering over a gallery item (comment out the following line).
-# subtitle: ""
+subtitle: "Explore our published research"
 # [date] Project publication date.
 #   Changes order: The newest item will be displayed first in the gallery. 
 #   Just like Hugo's natural ordering, this is anti-chronological.
@@ -13,11 +13,11 @@ weight: 3
 #   The specifics are documented here: https://gohugo.io/templates/lists/#order-content
 date: "2024-03-24T20:36:58+11:00"
 # [str] Gallery image file from the assets directory. 
-image: "images/publications.png"
+image: "images/circle-hex-pubs.png"
 # [str] Alternative (image) description.
 alt: ""
 # [css] Optional background color of the gallery item (if omitted, will use theme's fallback).
-color: "#fff"
+color: "#000"
 # [css] Optional gallery item hover color (if omitted, will use theme's fallback).
 #hoverColor: "#fff"
 # [map] Configure github specific options here:
