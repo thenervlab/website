@@ -24,9 +24,11 @@ sending: fas space-shuttle
 ok: fas check-circle
 
 star: far star
+link: fas link
 
 # Social
 github: fab github
 twitter: fab twitter
 linkedin: fab linkedin
 instagram: fab instagram
+youtube: fab youtube
