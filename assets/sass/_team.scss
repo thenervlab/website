@@ -1,0 +1,16 @@
+.team-member {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.team-member-image img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
+
+.team-member-info {
+    flex: 3;
+    padding: 0 20px;
+}
