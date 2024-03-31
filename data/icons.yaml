@@ -25,6 +25,11 @@ ok: fas check-circle
 
 star: far star
 link: fas link
+book: fas book
+code: fas code
+data: fas database
+preprint: fas newspaper
+comms: fas bullhorn
 
 # Social
 github: fab github

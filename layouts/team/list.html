@@ -5,7 +5,9 @@
     {{ partial "body-top" . }}
     <main>
         <div class="container">
-            <div><h1>Meet the NERVLAB team!</h1></div>
+            <div class="center-xs">
+              <h1>Meet the NERVLAB team!</h1>
+            </div>
           <div class="row">
               {{ range sort .Data.Pages ".Weight" }}
               <div class="col-xs-3">
