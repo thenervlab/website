@@ -13,7 +13,8 @@
               </div>
               <div class="col-xs-9">
                 <h2><a href="{{ .Permalink }}">{{ .Params.name }}</a></h2>
-                <em> {{ .Params.category }} </em>
+                <h3><em> {{ .Params.category }} </em></h3>
+                  <h3>{{ .Params.expertise }}</h3>
                 <p> {{ .Params.bio }} </p>
               </div>
                   {{ end }}

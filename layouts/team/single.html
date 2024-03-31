@@ -1,43 +1,33 @@
-{{ if .Site.Params.enforceSinglePage -}}
-<meta http-equiv="refresh" content="0; url={{ .Site.BaseURL }}">
-{{- else -}}
+
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  {{ partial "head.html" . }}
-  <body>
-    {{ partial "body-top" . }}
-    <main>
+{{ partial "head.html" . }}
 
-      <section class="container">
-        <section class="content">
-          <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
+<body>
+  {{ partial "body-top" . }}
+  <main>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3">
+          <img> {{ partial "sections/team/img.html" .}} </img>
+        </div>
+        
+        <div class="col-xs-9">
+          <h1>{{ .Params.name }}</h1>
+          <h3><em> {{ .Params.category }} </em></h3>
+          <h3>{{ .Params.expertise }}</h3>
+        </div>
+      </div>
+      
+      
+      <article class="entry-content">
+        {{ .Content }}
+      </article>
 
-            <div class="sub-header">
-              {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ i18n "minuteRead" .ReadingTime }}
-            </div>
+  </main>
+  {{ partial "footer.html" . }}
+  {{ partial "body-bottom" . }}
+</body>
 
-          <article class="entry-content">
-            {{ .Content }}
-          </article>
-
-          <div class="pagination">
-            {{ if .PrevInSection }}
-              <a href="{{ .PrevInSection.Permalink }}">&laquo; {{ .PrevInSection.Title }}</a>
-            {{ end }}
-            {{ if .NextInSection }}
-              <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &raquo;</a>
-            {{ end }}
-          </div>
-        </section>
-        <br>
-        {{ if .Site.DisqusShortname -}}
-        {{ partial "disqus" . }}
-        {{- end }}
-      </section>
-
-    </main>
-    {{ partial "footer.html" . }}
-    {{ partial "body-bottom" . }}
-  </body>
 </html>
-{{- end }}

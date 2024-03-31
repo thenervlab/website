@@ -1,7 +1,7 @@
 {{ partial "lazyimg" (dict 
     "img" .Params.image
-    "maxsize" (default "150x" site.Params.Image.Gallery.resize)
-    "responsivesizes" (default (slice "100x" "150x"))
+    "maxsize" (default "200x" site.Params.Image.Gallery.resize)
+    "responsivesizes" (default (slice "100x" "200x"))
     "lqipsize" (default "16x Gaussian" site.Params.Gallery.Gallery.resizeLQIP)
     "resizeoptions" (default "q90 MitchellNetravali" site.Params.Image.Gallery.resizeOptions)
     "alt" (default .Params.title .Params.alt) 

@@ -1,7 +1,7 @@
 ---
-name: "Annaliese Cox"
+name: Dylan Norris
 
-category: "Post-graduate Intern"
+category: Undergraduate Research Student (Honours)
 
 bio: " Lorem Ipsum "
 
@@ -9,7 +9,7 @@ image: "images/team/default.png"
 
 draft: true
 
-weight: 4
+weight: 2
 
 ---
 
