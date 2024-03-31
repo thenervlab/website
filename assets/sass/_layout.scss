@@ -83,6 +83,12 @@ header {
   padding: $vertical-rhythm * 4 0 $vertical-rhythm * 4;
 }
 
+.low-pad-container {
+  max-width: 70rem; // 700px
+  margin: auto;
+  padding: $vertical-rhythm * 0 0 $vertical-rhythm * 0;
+}
+
 @media (max-width: 25em) {
   body .container {
     padding: $vertical-rhythm * 4 $vertical-rhythm;
