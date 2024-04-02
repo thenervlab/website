@@ -1,10 +1,12 @@
 +++
 title = "Introducing the NERVLAB"
 description = ""
-date = 2024-03-23T20:57:28+11:00
+date = 2024-04-01T20:57:28+11:00
 author = "NERVLAB"
 draft = true
 +++
+
+<img src="images\logo_large_black-orange.png" width="300" style="float:right; padding-left:20px" >
 
 Welcome to the NERVLAB! We're thrilled to launch our new research team based at the University of Wollongong, Australia. We are working to unravel the mysteries of neurodegenerative disease, particularly Motor Neuron Disease (MND). Our mission is clear: to develop innovative solutions for diagnosis and treatment by advancing understanding of the fundamental molecular mechanisms underlying these devastating disorders.
 
