@@ -147,10 +147,10 @@ Menu:
       identifier: blog
       url: "/#blog"
       weight: 3
-    # - name: "Join Us"
-    #   identifier: join
-    #   url: "/#join"
-    #   weight: 4
+    - name: "Join Us"
+      identifier: join
+      url: "/#join"
+      weight: 4
     - name: "Contact"
       identifier: contact
       url: "/#contact"
