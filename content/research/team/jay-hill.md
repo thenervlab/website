@@ -3,7 +3,7 @@ name: "Jay Hill"
 
 category: "Undergraduate Research Student (SCIP)"
 
-bio: " Lorem Ipsum "
+bio: " "
 
 image: "images/team/default.png"
 

@@ -3,7 +3,7 @@ name: Dylan Norris
 
 category: Undergraduate Research Student (Honours)
 
-bio: " Lorem Ipsum "
+bio: " "
 
 image: "images/team/default.png"
 
