@@ -8,6 +8,7 @@ tags: ["personal", "homepage", "portfolio"]
 disableKinds: ["taxonomy"]
 enableEmoji: true
 pygmentsUseClasses: true
+ignoreErrors: ["error-disable-taxonomy"]
 
 module:
   imports:
