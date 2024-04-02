@@ -76,9 +76,9 @@ Params:
     url: "https://github.com/thenervlab/"
 
 # ## Additional theme features:
-#   Feat:
+  Feat:
 #     # ajaxBasin requires Basin setup for a free contact form (see instructions in README).
-#     ajaxBasin: "https://usebasin.com/f/{YOUR-12-CHAR-FORM-KEY-HERE}"
+    ajaxBasin: "https://usebasin.com/f/3d5d9b8b7c66"
 
 #     # useStructuredData for your own https://schema.org/Person (SEO-friendly).
 #     #   This will be auto-generated dependent on the information you provide in this configuration.
