@@ -1,5 +1,5 @@
 ---
-title: "Join our team"
+title: "Join Our Team"
 date: 2024-03-24T09:42:33+11:00
 draft: true
 author: NERVLAB
