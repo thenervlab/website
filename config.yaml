@@ -159,3 +159,8 @@ Menu:
 #     #   pre: '<svg class="icon"><use xlink:href="#icon-external"/></svg>&nbsp;'
 #     #   url: "https://pyotek.dev"
 #     #   weight: 5
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
