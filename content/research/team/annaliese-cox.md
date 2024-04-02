@@ -7,7 +7,7 @@ bio: "Annaliese Cox is interning at Molecular Horizons, University of Wollongong
 
 image: "images/team/annaliese-cox.png"
 
-draft: true
+draft: false
 
 weight: 4
 

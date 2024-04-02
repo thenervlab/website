@@ -7,7 +7,7 @@ bio: " Lorem Ipsum "
 
 image: "images/team/default.png"
 
-draft: true
+draft: false
 
 weight: 0
 

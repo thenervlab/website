@@ -2,7 +2,7 @@
 title = "Our Research Philosophy"
 date = 2024-04-01T09:00:39+11:00
 description = ""
-draft = true
+draft = false
 author = "NERVLAB"
 +++
 

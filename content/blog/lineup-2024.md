@@ -2,7 +2,7 @@
 title = "Meet our 2024 lineup!"
 date = 2024-04-01T09:00:51+11:00
 description = ""
-draft = true
+draft = false
 author = "NERVLAB"
 +++
 

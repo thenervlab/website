@@ -8,7 +8,7 @@ bio: "Dr Cox is a Lecturer in Cell & Molecular Biology and Senior Research Fello
 expertise: "proteostasis  · aggregation · proteomics · single-molecule super-resolution microscopy · python"
 
 image: "images/team/cox-dezerae.png"
-draft: true
+draft: false
 weight: 1
 type: "team"
 ---

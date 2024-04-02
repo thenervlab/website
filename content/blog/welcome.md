@@ -3,7 +3,7 @@ title = "Introducing the NERVLAB"
 description = ""
 date = 2024-04-01T20:57:28+11:00
 author = "NERVLAB"
-draft = true
+draft = false
 +++
 
 <img src="images\logo_large_black-orange.png" width="300" style="float:right; padding-left:20px" >
