@@ -9,7 +9,7 @@ year: "2022"
 
 doi: https://doi.org/10.1021/acs.jproteome.1c00920
 
-weight: 9
+weight: 7
 
 color: "#fff"
 

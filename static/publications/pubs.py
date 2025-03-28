@@ -21,7 +21,7 @@ pubs = pd.read_excel(input_path)
 pubs.sort_values('Publication Year', inplace=True)
 pubs['weight'] = [x+1 for x in reversed(range(len(pubs)))]
 
-for (title, authors, first, journal, year, doi, preprint, data, code, communication, weight) in pubs.values:
+for (title, authors, first, journal, year, doi, preprint, data, code, communication, keyword, weight) in pubs.values:
     title = title.replace('"', "'")
         
     # template to fill
@@ -85,7 +85,7 @@ for (title, authors, first, journal, year, doi, preprint, data, code, communicat
             
     template.extend(['---'])
             
-    with open(f'{output_folder}/{year}-{first.split(" ")[0]}.md', mode='wt', encoding='utf-8') as myfile:
+    with open(f'{output_folder}/{year}-{first.split(" ")[0]}-{keyword}.md', mode='wt', encoding='utf-8') as myfile:
         myfile.write('\n'.join(template))
 
 # Generate markdown files

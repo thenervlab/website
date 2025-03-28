@@ -9,7 +9,7 @@ year: "2020"
 
 doi: https://doi.org/10.1242/jcs.243709
 
-weight: 12
+weight: 18
 
 color: "#fff"
 

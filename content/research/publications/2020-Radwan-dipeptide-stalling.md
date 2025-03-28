@@ -9,7 +9,7 @@ year: "2020"
 
 doi: https://doi.org/10.1074/mcp.RA119.001888
 
-weight: 15
+weight: 14
 
 color: "#fff"
 

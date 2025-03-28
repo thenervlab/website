@@ -9,7 +9,7 @@ year: "2024"
 
 doi: https://doi.org/nan
 
-weight: 2
+weight: 4
 
 color: "#fff"
 
