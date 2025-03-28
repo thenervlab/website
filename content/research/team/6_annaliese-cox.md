@@ -9,7 +9,7 @@ image: "images/team/annaliese-cox.png"
 
 draft: false
 
-weight: 4
+weight: 6
 
 ---
 
