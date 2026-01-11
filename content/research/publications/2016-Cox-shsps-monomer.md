@@ -9,7 +9,7 @@ year: "2016"
 
 doi: https://doi.org/10.1074/jbc.M116.739250
 
-weight: 24
+weight: 27
 
 color: "#fff"
 
