@@ -8,11 +8,18 @@
           {{ $partial := printf "sections/%s.html" $m.Identifier }}
           {{ $page := $m.Page }}
           {{ if not $page -}}
+            {{ $page = $.Site.GetPage (printf "/%s" $m.Identifier) }}
+          {{- end }}
+          {{ if not $page -}}
             {{ $page = $.Site.GetPage $m.Identifier }}
+          {{- end }}
+          {{ $ctx := $page }}
+          {{ if not $ctx -}}
+            {{ $ctx = $ }}
           {{- end }}
           {{ if templates.Exists $partial }}
             <section class="{{ .Identifier }}" id="{{ replace (replace .URL "/" "") "#" "" }}">
-            {{ partial $partial $page }}
+            {{ partial $partial $ctx }}
             </section>
           {{ else if $page }}
             <section class="default" id="{{ replace (replace .URL "/" "") "#" "" }}">
