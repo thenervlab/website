@@ -30,8 +30,8 @@
           </div>
         </section>
         <br>
-        {{ if .Site.DisqusShortname -}}
-        {{ partial "disqus" . }}
+        {{ with site.Config.Services.Disqus.Shortname -}}
+        {{ partial "disqus" $ }}
         {{- end }}
       </section>
 
