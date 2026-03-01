@@ -13,16 +13,16 @@
     <div class="row center-xs">
       <div class="col-xs-12 col-sm-6"><input type="text" name="name" aria-label="name" placeholder="{{ i18n "name" }}" required></div>
       <div class="col-xs-12 col-sm-6"><input type="email" id="email" name="email" aria-label="email address" placeholder="{{ i18n "email" }}" required></div>
-        {{ if .Params.selectKeys -}}
+      {{ if .Page.Params.selectKeys -}}
       <div class="col-xs-12 col-sm-6">
           <select name="matter" required aria-label="email matter">
-            {{ range .Params.selectKeys -}}
+              {{ range .Page.Params.selectKeys -}}
               <option value="{{ . }}">{{ i18n . }}</option>
               {{- end }}
             </select>
       </div>
       {{- end }}
-        <div class="col-xs-12{{ if .Params.selectKeys }} col-sm-6{{ end }}"><input type="text" name="_subject" aria-label="email subject" placeholder="{{ i18n "subject" }}" required></div>
+      <div class="col-xs-12{{ if .Page.Params.selectKeys }} col-sm-6{{ end }}"><input type="text" name="_subject" aria-label="email subject" placeholder="{{ i18n "subject" }}" required></div>
       <div class="col-xs-12">
           <textarea name="message" aria-label="Please enable JS" required></textarea>
         </div>

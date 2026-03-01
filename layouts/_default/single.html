@@ -3,43 +3,41 @@
 {{- else -}}
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{ partial "head.html" . }}
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "body-top" . }}
+    <main>
 
-<body>
-  {{ partial "body-top" . }}
-  <main>
+      <section class="container">
+        <section class="content">
+          <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
 
-    <section class="container">
-      <section class="content">
-        <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
+            <div class="sub-header">
+              {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ i18n "minuteRead" .ReadingTime }}
+            </div>
 
-        <div class="sub-header">
-          {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ i18n "minuteRead" .ReadingTime }}
-        </div>
+          <article class="entry-content">
+            {{ .Content }}
+          </article>
 
-        <article class="entry-content">
-          {{ .Content }}
-        </article>
-
-        <div class="pagination">
-          {{ if .PrevInSection }}
-          <a href="{{ .PrevInSection.Permalink }}">&laquo; {{ .PrevInSection.Title }}</a>
-          {{ end }}
-          {{ if .NextInSection }}
-          <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &raquo;</a>
-          {{ end }}
-        </div>
+          <div class="pagination">
+            {{ if .PrevInSection }}
+              <a href="{{ .PrevInSection.Permalink }}">&laquo; {{ .PrevInSection.Title }}</a>
+            {{ end }}
+            {{ if .NextInSection }}
+              <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &raquo;</a>
+            {{ end }}
+          </div>
+        </section>
+        <br>
+        {{ if .Site.DisqusShortname -}}
+        {{ partial "disqus" . }}
+        {{- end }}
       </section>
-      <br>
-      {{ if .Site.DisqusShortname -}}
-      {{ partial "disqus" . }}
-      {{- end }}
-    </section>
 
-  </main>
-  {{ partial "footer.html" . }}
-  {{ partial "body-bottom" . }}
-</body>
-
+    </main>
+    {{ partial "footer.html" . }}
+    {{ partial "body-bottom" . }}
+  </body>
 </html>
 {{- end }}

@@ -5,25 +5,18 @@
     {{ partial "body-top" . }}
     <main>
       {{ range $i, $m := .Site.Menus.main -}}
-          {{ $partial := printf "sections/%s.html" $m.Identifier }}
+          {{ $partial := printf "partials/sections/%s.html" $m.Identifier }}
           {{ $page := $m.Page }}
-          {{ if not $page -}}
-            {{ $page = $.Site.GetPage (printf "/%s" $m.Identifier) }}
-          {{- end }}
           {{ if not $page -}}
             {{ $page = $.Site.GetPage $m.Identifier }}
           {{- end }}
-          {{ $ctx := $page }}
-          {{ if not $ctx -}}
-            {{ $ctx = $ }}
-          {{- end }}
           {{ if templates.Exists $partial }}
             <section class="{{ .Identifier }}" id="{{ replace (replace .URL "/" "") "#" "" }}">
-            {{ partial $partial $ctx }}
+            {{ partial $partial $page }}
             </section>
           {{ else if $page }}
             <section class="default" id="{{ replace (replace .URL "/" "") "#" "" }}">
-            {{ partial "sections/default.html" $page }}
+            {{ partial "partials/sections/default.html" $page }}
             </section>
           {{ else }}
             {{ warnf "could not find page for menu: %#v\n\t💡 TIP: Please create one via `hugo new %s`" $m $m.Identifier }}
