@@ -7,7 +7,7 @@ author = "Dezerae Cox"
 weight = 5
 +++
 
-<img src="images/news/lorne-2026-birds.jpg" width="500" style="float:left; padding-right:20px" >
+<img src="images/news/lorne-2026-birds.jpg" width="500" style="float:left; padding-right:20px">
 
 Early this February, the NERVLAB team had the privilege of travelling to the 2026 Lorne Proteomics Symposium. Held at Mantra Lorne along Victoria’s stunning coastline, this meeting consistently brings together leaders, innovators, and emerging researchers across the proteomics community for science by the seaside.
 
