@@ -1,6 +1,6 @@
 +++
 title = "NERVLAB goes to Lorne!"
-date = 2025-02-02T09:00:00+11:00
+date = 2026-02-28T09:00:00+11:00
 description = ""
 draft = false
 author = "Dezerae Cox"
