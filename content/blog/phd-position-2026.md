@@ -4,7 +4,7 @@ date = 2026-03-30T09:00:00+11:00
 description = ""
 draft = false
 author = "NERVLAB"
-weight = 5
+weight = 6
 +++
 
 <img src="images/news/gene-degradation.jpg" width="500" style="float:left; padding-right:20px" >
