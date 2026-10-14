@@ -5,3 +5,32 @@ nav {
     opacity: 0;
   }
 }
+
+// Mobile browsers ignore background-attachment: fixed, so `cover` is computed
+// against the full page height and the (small, CSS-px-selected) image gets
+// stretched and pixelated. Instead, pin the full-res image to the viewport with
+// a fixed pseudo-element. clip-path makes .bg a stacking context (so z-index -1
+// sits above the header's background-color) and clips the layer to the header.
+// This partial isn't templated, so the image is referenced by its published path.
+@media (max-width: $mobile-breakpoint) {
+  .bg,
+  .bg.lazyloaded {
+    background-image: none !important;
+  }
+
+  .bg {
+    position: relative;
+    clip-path: inset(0);
+  }
+
+  .bg::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: url("/background-1920x.jpg") center / cover no-repeat;
+  }
+}
